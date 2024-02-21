@@ -1,0 +1,312 @@
+/* ====================================================================================================================
+**google font start
+====================================================================================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* ====================================================================================================================
+**google font end
+====================================================================================================================*/
+
+/* ====================================================================================================================
+universal sector start
+====================================================================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+::selection {
+}
+:root {
+  --main-colo: #ffb411;
+  --text-color: #1e1c2a;
+  --bg-color: #fafafa;
+
+  --big-font: 4rem;
+  --h2-font: 2.24rem;
+  --p-font: 0.9rem;
+}
+body {
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+.btn {
+  color: #fff;
+  background: var(--main-colo);
+  font-weight: 500;
+  padding: 0.8rem 2rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+.btn:hover {
+  letter-spacing: 0.1rem;
+}
+section {
+  padding: 5rem 0;
+}
+span {
+  color: var(--main-colo);
+}
+h2 {
+  font-size: 2.5rem;
+}
+::selection {
+  background: var(--main-colo);
+  color: var(--bg-color);
+}
+::-webkit-scrollbar {
+  width: 1.5rem;
+  background: var(--main-colo);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-color);
+  border-radius: 1rem;
+  border: 0.4rem solid #ffb411;
+}
+/* ====================================================================================================================
+universal sector end
+====================================================================================================================*/
+
+/* ====================================================================================================================
+**header section start
+====================================================================================================================*/
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 22px 0;
+  background: var(--bg-color);
+  z-index: 1;
+  background: #fff;
+}
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .menu .logo {
+}
+header .menu .logo a {
+  color: var(--main-colo);
+  font-weight: bold;
+}
+header .menu ul {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+header .menu ul li {
+}
+header .menu ul li a {
+  color: var(--text-color);
+}
+header .menu ul li a:hover {
+  color: var(--main-colo);
+}
+/* ====================================================================================================================
+**header section end
+====================================================================================================================*/
+
+/* ====================================================================================================================
+**banner section start
+====================================================================================================================*/
+#banner {
+  margin-top: 5rem;
+}
+#banner .banner-ditals {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#banner .banner-ditals .banner-conten {
+}
+#banner .banner-ditals .banner-conten h1 {
+  font-size: var(--big-font);
+  color: var(--main-colo);
+}
+#banner .banner-ditals .banner-conten p {
+  font-size: var(--h2-font);
+  font-weight: bold;
+}
+#banner .banner-ditals .banner-conten a {
+}
+#banner .banner-ditals .banner-image {
+}
+#banner .banner-ditals .banner-image img {
+  width: 100%;
+}
+/* ====================================================================================================================
+**banner section end
+====================================================================================================================*/
+
+/* ====================================================================================================================
+**about section start
+====================================================================================================================*/
+#about {
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about .image {
+}
+.about .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.about .contant {
+  width: 50%;
+}
+.about .contant p {
+}
+.about .contant h2 {
+}
+.about .contant p {
+}
+.about .contant a {
+}
+/* ====================================================================================================================
+**about sectio end
+====================================================================================================================*/
+
+/* ====================================================================================================================
+**menu section start
+====================================================================================================================*/
+#menu {
+}
+#menu .titile {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.menu-items .item {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  padding: 2rem 3rem;
+  position: relative;
+  text-align: center;
+}
+.menu-items .item .icon {
+  background: var(--main-colo);
+  width: 50px;
+  height: 50px;
+  border-top-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.menu-items .item .icon i {
+}
+.menu-items .item img {
+  width: 180px;
+  height: 180px;
+}
+.menu-items .item h3 {
+}
+.menu-items .item p {
+}
+/* ====================================================================================================================
+**menu section end
+====================================================================================================================*/
+
+/* ====================================================================================================================
+**services section start
+====================================================================================================================*/
+#services {
+}
+#services .title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#services .itile p {
+}
+#services .itile h2 {
+}
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.services .services-item {
+  width: 20rem;
+  text-align: center;
+}
+.services .services-item img {
+  width: 5rem;
+}
+.services .services-item h3 {
+}
+.services .services-item p {
+}
+/* ====================================================================================================================
+**services section end
+====================================================================================================================*/
+
+/* ====================================================================================================================
+**contact section start
+====================================================================================================================*/
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* ====================================================================================================================
+**contact section end
+====================================================================================================================*/
+
+/* ====================================================================================================================
+**footer section start
+====================================================================================================================*/
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer i {
+  margin-right: 0.5rem;
+}
+footer .container div ul li a,
+footer .container div i {
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+footer .container div ul li a:hover,
+footer .container div i:hover {
+  color: var(--main-colo);
+}
+footer .credite {
+  text-align: center;
+  margin-top: 3rem;
+}
+/* ====================================================================================================================
+**footer section end
+====================================================================================================================*/
